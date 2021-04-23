@@ -17,13 +17,11 @@ spring:
     config:
       discovery:
         enabled: true
-      server:
-        encrypt.enabled: false
         git:
-          uri: https://github.com/carnellj/config-repo/
+          uri: https://github.com/zhouhai22/config-repo-1/
           searchPaths: licensingservice,organizationservice,specialroutesservice,zuulservice,authenticationservice
-          username: native-cloud-apps
-          password: 0ffended
+          username: zhouhai22
+          password: 715517aA
 
 
 ####
