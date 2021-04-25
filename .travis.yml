@@ -16,9 +16,9 @@ branches:
   only:
     - master
 env:
-  - "DOCKER_USERNAME=zch22"
-  - "DOCKER_PASSWORD=715517aA"
-  - "GITHUB_TOKEN=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"
+  - DOCKER_USERNAME=zch22
+  - DOCKER_PASSWORD=715517aA
+  - GITHUB_TOKEN=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
 before_install:
 #  - gem install travis -v 1.8.5 --no-rdoc --no-ri
 #  - sudo curl -k -o /usr/local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-linux-amd64-latest
